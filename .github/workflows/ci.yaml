@@ -1,9 +1,8 @@
 on:
   push:
     branches:
-      - main
-  pull_request:
-  merge_group:
+      - abcd
+
 name: ci
 jobs:
   test:
